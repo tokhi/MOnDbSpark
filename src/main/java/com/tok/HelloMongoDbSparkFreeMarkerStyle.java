@@ -41,6 +41,13 @@ public class HelloMongoDbSparkFreeMarkerStyle {
                 return stringWriter;
             }
         });
+
+        Spark.get(new Route("/echo/:thing") {
+            @Override
+            public Object handle(Request request, Response response) {
+              return request.params(":thing");
+            }
+        });
     }
 
 }
