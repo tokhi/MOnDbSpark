@@ -1,5 +1,5 @@
 <html>
-  <head>Hello ftl</head>
+  <head><title>Hello ftl</title></head>
   <body>
     <h1>Hello ${name}</h1>
   </body>

@@ -9,7 +9,8 @@
     <file path="/HelloWorldSparkStyle.java" changelist="dbd81638-511d-48d2-851d-792f6a0c5797" time="1389550860971" ignored="false" />
     <file path="/pom.xml" changelist="dbd81638-511d-48d2-851d-792f6a0c5797" time="1389551450287" ignored="false" />
     <file path="/HelloWorldFreeMarkerStyle.java" changelist="dbd81638-511d-48d2-851d-792f6a0c5797" time="1389552419866" ignored="false" />
-    <file path="/hello.ftl" changelist="dbd81638-511d-48d2-851d-792f6a0c5797" time="1389552016507" ignored="false" />
+    <file path="/hello.ftl" changelist="dbd81638-511d-48d2-851d-792f6a0c5797" time="1389553293768" ignored="false" />
+    <file path="/HelloWorldSparkFreeMarkerStyle.java" changelist="dbd81638-511d-48d2-851d-792f6a0c5797" time="1389553155430" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +22,18 @@
     <SUITE FILE_PATH="coverage/MO1jSpark$HelloMongoDBStyle.coverage" NAME="HelloMongoDBStyle Coverage Results" MODIFIED="1389549740423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.tok.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/MO1jSpark$HelloWorldSparkFreeMarkerStyle.coverage" NAME="HelloWorldSparkFreeMarkerStyle Coverage Results" MODIFIED="1389553321010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.tok.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/MO1jSpark$HelloWorldFreeMarkerStyle.coverage" NAME="HelloWorldFreeMarkerStyle Coverage Results" MODIFIED="1389552457682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.tok.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/MO1jSpark$HelloWorldSparkStyle.coverage" NAME="HelloWorldSparkStyle Coverage Results" MODIFIED="1389550987697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.tok.*</FILTER>
     </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="-1" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -90,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorldFreeMarkerStyle.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HelloWorldFreeMarkerStyle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tok/HelloWorldFreeMarkerStyle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="41" selection-start="411" selection-end="411" vertical-scroll-proportion="0.45533141">
+            <state line="26" column="9" selection-start="412" selection-end="934" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#613#629#0" expanded="true" />
@@ -102,10 +109,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HelloWorldSparkFreeMarkerStyle.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tok/HelloWorldSparkFreeMarkerStyle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="35" selection-start="769" selection-end="769" vertical-scroll-proportion="0.3">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#877#893#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="hello.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/hello.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.1">
+            <state line="1" column="32" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.7">
               <folding />
             </state>
           </provider>
@@ -114,7 +133,7 @@
       <file leaf-file-name="HelloWorldSparkStyle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tok/HelloWorldSparkStyle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="38" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+            <state line="17" column="13" selection-start="221" selection-end="416" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,8 +165,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tok/HelloMongoDBStyle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tok/HelloWorldSparkStyle.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hello.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/tok/HelloWorldFreeMarkerStyle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tok/HelloWorldSparkFreeMarkerStyle.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hello.ftl" />
       </list>
     </option>
   </component>
@@ -291,7 +311,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Application.HelloWorldFreeMarkerStyle">
+  <component name="RunManager" selected="Application.HelloWorldSparkFreeMarkerStyle">
     <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -372,6 +392,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.tok.HelloWorldFreeMarkerStyle" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MO1jSpark" />
+      <envs />
+      <RunnerSettings RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Cover" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HelloWorldSparkFreeMarkerStyle" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.tok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.tok.HelloWorldSparkFreeMarkerStyle" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -477,18 +519,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.App" />
       <item index="1" class="java.lang.String" itemvalue="Application.HelloMongoDBStyle" />
       <item index="2" class="java.lang.String" itemvalue="Application.HelloWorldSparkStyle" />
       <item index="3" class="java.lang.String" itemvalue="Application.HelloWorldFreeMarkerStyle" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HelloWorldSparkFreeMarkerStyle" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.HelloWorldFreeMarkerStyle" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HelloWorldSparkStyle" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HelloMongoDBStyle" />
-        <item index="3" class="java.lang.String" itemvalue="Application.App" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.HelloWorldSparkFreeMarkerStyle" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HelloWorldFreeMarkerStyle" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HelloWorldSparkStyle" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HelloMongoDBStyle" />
+        <item index="4" class="java.lang.String" itemvalue="Application.App" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -625,16 +669,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hello.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.1">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tok/HelloWorldSparkStyle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+        <state line="17" column="13" selection-start="221" selection-end="416" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -643,10 +680,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tok/HelloWorldFreeMarkerStyle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="41" selection-start="411" selection-end="411" vertical-scroll-proportion="0.45533141">
+        <state line="26" column="9" selection-start="412" selection-end="934" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#613#629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hello.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="32" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.7">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tok/HelloWorldSparkFreeMarkerStyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="35" selection-start="769" selection-end="769" vertical-scroll-proportion="0.3">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#877#893#0" expanded="true" />
           </folding>
         </state>
       </provider>
